@@ -1,1 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# VS Code
+.vscode/wallet.json
 wallet.json
