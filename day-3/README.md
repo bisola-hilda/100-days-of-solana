@@ -1,54 +1,56 @@
 # Day 3 – Understanding SOL and Lamports
 
-## 🎯 Challenge
+## Challenge
 
-Learn how balances are stored on Solana and understand the relationship between SOL and Lamports.
-
----
-
-## 📝 What I Learned
-
-Today I learned that Solana stores balances in Lamports rather than SOL.
-
-1 SOL equals 1,000,000,000 Lamports.
-
-Developers convert Lamports into SOL to display balances in a human-readable format.
+Learn how Solana stores balances and understand the relationship between SOL and Lamports.
 
 ---
 
-## 💡 Lesson of the Day
+## Objective
 
-Computers work with the smallest units for accuracy, just like money is stored as cents or kobo.
-
----
-
-## 🌐 Web2 vs Web3
-
-Traditional applications usually store currency in the smallest denomination (for example, cents).
-
-Solana does the same by storing balances in Lamports.
+Understand Solana's native currency and why balances are stored in Lamports.
 
 ---
 
-## 🚀 Product Thinking
+## What I Learned
 
-Understanding Lamports is essential when building:
-
-- Wallet apps
-- Portfolio trackers
-- Payment systems
-- DeFi applications
+- SOL is Solana's native cryptocurrency.
+- 1 SOL = 1,000,000,000 Lamports.
+- RPC methods return balances in Lamports.
+- Applications convert Lamports to SOL for users.
 
 ---
 
-## 📚 New Concepts
+## Key Concepts
 
 - SOL
 - Lamports
-- Balance Conversion
+- Balance
+- Unit Conversion
 
 ---
 
-## ✨ Reflection
+## Lesson of the Day
 
-Today I learned why developers rarely work directly with SOL values. Everything starts with Lamports.
+Blockchains store values in their smallest units to ensure precision and avoid rounding errors.
+
+---
+
+## Real-World Application
+
+Every wallet, DeFi protocol, NFT marketplace, and blockchain explorer converts Lamports into SOL before displaying balances to users.
+
+---
+
+## Skills Gained
+
+- Solana
+- JavaScript
+- Unit Conversion
+- Blockchain Fundamentals
+
+---
+
+## Repository Update
+
+Documentation improved to explain SOL, Lamports, and balance conversion.
