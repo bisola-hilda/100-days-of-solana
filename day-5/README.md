@@ -1,76 +1,27 @@
 # Day 5 – Comparing Solana Wallet Types
 
-## 🎯 Challenge
+## Challenge
 
-Explore and compare CLI wallets, browser wallets, and mobile wallets to understand when each should be used.
-
----
-
-## 📝 What I Learned
-
-Today I compared three different wallet types:
-
-- CLI Wallet
-- Browser Wallet
-- Mobile Wallet
-
-Each serves a different purpose depending on the user's needs.
+Compare CLI, browser, and mobile wallets to understand their strengths and use cases.
 
 ---
 
-## 💡 Lesson of the Day
+## Objective
 
-A wallet is simply a way of managing cryptographic keys.
-
-The difference lies in convenience, security, and intended use.
+Learn when each wallet type should be used in development and everyday blockchain interactions.
 
 ---
 
-## 🌐 Wallet Comparison
+## What I Learned
 
-### CLI Wallet
-
-✅ Most secure for developers
-
-Best for:
-
-- Testing
-- Development
-- Automation
+- CLI wallets are ideal for developers and automation.
+- Browser wallets provide the best user experience for Web3 applications.
+- Mobile wallets offer convenience for everyday use.
+- Security and usability depend on the wallet type and use case.
 
 ---
 
-### Browser Wallet
-
-✅ Most convenient
-
-Best for:
-
-- DeFi
-- NFTs
-- Everyday Web3 use
-
----
-
-### Mobile Wallet
-
-✅ Best for portability
-
-Best for:
-
-- Payments
-- Daily transactions
-- Managing assets on the go
-
----
-
-## 🚀 Product Thinking
-
-Every Web3 application needs to consider which wallet experience best fits its users.
-
----
-
-## 📚 New Concepts
+## Key Concepts
 
 - CLI Wallet
 - Browser Wallet
@@ -79,6 +30,26 @@ Every Web3 application needs to consider which wallet experience best fits its u
 
 ---
 
-## ✨ Reflection
+## Lesson of the Day
 
-This challenge helped me understand that there isn't one "best" wallet. The right choice depends on the situation and the user's needs.
+There is no single "best" wallet. The right wallet depends on the task and the user's needs.
+
+---
+
+## Real-World Application
+
+Developers use CLI wallets for testing, while users rely on browser and mobile wallets for interacting with decentralized applications.
+
+---
+
+## Skills Gained
+
+- Wallet Management
+- Solana Ecosystem
+- Security Best Practices
+
+---
+
+## Repository Update
+
+Documentation improved to compare Solana wallet types and their practical use cases.
