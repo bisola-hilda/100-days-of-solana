@@ -1,60 +1,66 @@
-# Day 2 – Creating a Persistent Solana Wallet
+# Day 2 – Create a Persistent Solana Wallet
 
-## 🎯 Challenge
+## Challenge
 
-Learn how to create a wallet that can be saved and reused instead of generating a new one every time the program runs.
-
----
-
-## 📝 What I Learned
-
-Today I learned how to create a persistent wallet using Solana Kit.
-
-Instead of generating a new keypair every time the application starts, I saved my wallet so it can be reused in future programs.
-
-This is important because blockchain identity should remain consistent. If a new keypair is created every time, it represents a completely different identity on the blockchain.
+Create a Solana wallet that can be saved and reused instead of generating a new wallet every time the program runs.
 
 ---
 
-## 💡 Lesson of the Day
+## Objective
 
-A persistent wallet allows developers to keep the same blockchain identity across multiple applications and sessions.
-
----
-
-## 🌐 Web2 vs Web3
-
-**Web2**
-- User accounts are stored in a database.
-- Users log in with usernames and passwords.
-
-**Web3**
-- Identity is your cryptographic keypair.
-- Your wallet represents your account across all decentralized applications.
+Understand how to persist a wallet by saving the keypair locally.
 
 ---
 
-## 🚀 Product Thinking
+## What I Built
 
-Persistent wallets are essential for:
-
-- DeFi platforms
-- NFT marketplaces
-- DAO governance
-- Crypto wallets
-- Payment applications
+I created a script that generates a Solana wallet and saves the keypair to a `wallet.json` file. This allows me to reuse the same wallet instead of creating a new one every time.
 
 ---
 
-## 📚 New Concepts
+## What I Learned
+
+- Wallets can be persisted by saving the keypair.
+- The `wallet.json` file contains the private key.
+- Losing the private key means losing access to the wallet.
+- The same wallet can be loaded and reused in future applications.
+
+---
+
+## Key Concepts
 
 - Persistent Wallet
-- JSON Wallet File
-- Key Management
-- Wallet Identity
+- Keypair Storage
+- wallet.json
+- File System
+- Private Key Security
 
 ---
 
-## ✨ Reflection
+## Files
 
-Today I understood why saving a wallet matters. My wallet is not just a tool—it is my identity on Solana.
+```text
+code/
+└── persistent-wallet.mjs
+```
+
+---
+
+## Lesson of the Day
+
+Generating a wallet is only the first step. Real applications require persistent wallets so users can continue using the same blockchain identity.
+
+---
+
+## Skills Gained
+
+- JavaScript
+- Node.js
+- Solana Kit
+- File Handling
+
+---
+
+## Repository Update
+
+Documentation improved to explain persistent wallet creation and storage.
