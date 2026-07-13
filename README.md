@@ -1,113 +1,86 @@
 # 🚀 100 Days of Solana
 
-Welcome to my **100 Days of Solana** journey!
-
-This repository documents my progress as I learn Solana development from the ground up through the official **100 Days of Solana** challenge.
-
-My goal is not just to complete the challenges, but to understand the technology deeply, build projects, and share my learning publicly.
+Building in public as I learn Solana, Web3, JavaScript and blockchain development.
 
 ---
 
-# 👩🏽 About Me
+## 👋 About
 
-Hi! I'm **Bisola Hilda Olabanji**.
+This repository documents my journey through the **100 Days of Solana** challenge.
 
-I'm currently transitioning into Blockchain Engineering while also growing my skills in:
+My goal is to become a blockchain developer while combining my interests in:
 
 - Blockchain Development
-- Solana
 - DeFi
 - Data Science
-- Artificial Intelligence
-- JavaScript
-- Rust (coming soon)
+- AI
+- Financial Technology
 
-I believe in **Learning in Public**, so every challenge is documented here.
-
----
-
-# 🎯 Goals
-
-- Complete the 100 Days of Solana challenge
-- Become a proficient Solana developer
-- Learn Rust for on-chain programs
-- Build real-world DeFi applications
-- Strengthen my JavaScript skills
-- Combine Blockchain, AI, and Data Science to solve financial problems
+Every day contains code, documentation, reflections, and lessons learned.
 
 ---
 
-# 📅 Progress
+## 📅 Progress
 
 | Day | Topic | Status |
-|------|-------------------------------|:------:|
-| 1 | Solana Keypairs | ✅ |
-| 2 | Persistent Wallets | ✅ |
-| 3 | SOL & Lamports | ✅ |
-| 4 | Browser Wallet Integration | ✅ |
-| 5 | Wallet Types | ✅ |
-| 6 | Identity on Solana | ✅ |
-| 7 | Learning in Public | ✅ |
-| 8 | Reading Account Balances | ✅ |
-| 9 | Reading Transaction History | ✅ |
+|------|-------|--------|
+| Day 1 | Wallet Generation | ✅ |
+| Day 2 | Persistent Wallets | ✅ |
+| Day 3 | SOL & Lamports | ✅ |
+| Day 4 | Browser Wallets | ✅ |
+| Day 5 | Wallet Comparison | ✅ |
+| Day 6 | On-chain Identity | ✅ |
+| Day 7 | Learning in Public | ✅ |
+| Day 8 | Reading Account Balances | ✅ |
+| Day 9 | Fetching Transactions | ✅ |
+| Day 10 | Solana Dashboard | 🚧 |
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
-```text
+```
 day-1/
 day-2/
 day-3/
-day-4/
-day-5/
-day-6/
-day-7/
-day-8/
-day-9/
-
+...
+day-10/
 developer-notes/
-blog-posts/
-resources/
 ```
 
 ---
 
-# 📚 Developer Notes
+## 🛠 Technologies
 
-Throughout this journey, I'm building my own knowledge base on:
-
-- Linux
-- Git & GitHub
 - JavaScript
 - Node.js
-- Solana
-- RPC
-- Rust
-- DeFi
-
----
-
-# ✍🏽 Articles
-
-## DEV Community
-
-**From Passwords to Private Keys: Understanding Identity on Solana**
-
-https://dev.to/bisola-hilda/from-passwords-to-private-keys-understanding-identity-on-solana-1d1k
-
----
-
-# 🌱 Learning in Public
-
-I regularly share my progress on:
-
+- Solana Kit
+- Vite
+- Git
 - GitHub
-- DEV Community
-- LinkedIn
 
 ---
 
-## 🚀 Current Progress
+## 📚 Developer Notes
 
-**Day 9 / 100 Complete**
+The `developer-notes` folder contains personal notes on:
+
+- Linux
+- Git
+- JavaScript
+- Node.js
+- RPC
+- Solana
+
+---
+
+## ✍️ Articles
+
+- Day 6 DEV Article:
+  https://dev.to/bisola-hilda/from-passwords-to-private-keys-understanding-identity-on-solana-1d1k
+
+---
+
+## 🎯 Goal
+
+By the end of this challenge I aim to build production-ready Solana applications while developing strong foundations in blockchain engineering, DeFi, and Web3.
