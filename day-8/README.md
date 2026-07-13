@@ -1,35 +1,77 @@
-# Day 8 – Reading a Wallet Balance on Solana
+# Day 8 – Reading Solana Account Balances with RPC
 
 ## Challenge
 
-Connect to Solana Devnet and read the SOL balance of a public wallet using the Solana JavaScript SDK.
+Connect to Solana Devnet and retrieve the balance of a public wallet address using Solana RPC.
+
+---
+
+## Objective
+
+Learn how to communicate with the Solana blockchain by making a read-only Remote Procedure Call (RPC).
+
+---
+
+## What I Built
+
+I built my first JavaScript application that connects to Solana Devnet using `@solana/kit`. The application retrieves the balance of a wallet address and converts the returned Lamports into SOL for easier reading.
 
 ---
 
 ## What I Learned
 
-Today I made my first RPC call to the Solana blockchain using JavaScript.
-
-I learned that an RPC node acts as the gateway between my application and the blockchain. By connecting to Solana Devnet, I was able to query my wallet's balance without needing authentication or API keys because blockchain account data is publicly accessible.
-
-I also reinforced my understanding of lamports, where:
-
-- 1 SOL = 1,000,000,000 Lamports
-
-The Solana SDK returns balances in lamports, so I converted them into SOL for easier reading.
+- Solana nodes expose data through RPC APIs.
+- `getBalance()` is a read-only RPC method.
+- Account balances are returned in Lamports.
+- 1 SOL = 1,000,000,000 Lamports.
+- Public blockchain data can be queried without authentication.
 
 ---
 
-## Skills Practiced
+## Key Concepts
 
-- Solana Kit
-- RPC Connections
+- RPC (Remote Procedure Call)
+- Devnet
+- getBalance()
+- SOL
+- Lamports
+- Public Blockchain
+
+---
+
+## Lesson of the Day
+
+Today I made my first RPC call to the Solana blockchain. Instead of changing data, I simply asked the network for information. This is similar to making a GET request to an API in Web2 development.
+
+---
+
+## Real-World Application
+
+Wallet applications, blockchain explorers, and DeFi platforms constantly use `getBalance()` to display users' wallet balances in real time.
+
+---
+
+## Skills Gained
+
 - JavaScript
+- Solana Kit
+- RPC
 - Node.js
-- Reading Blockchain Data
+- Blockchain Fundamentals
 
 ---
 
-## Reflection
+## Files
 
-This challenge showed me how simple it is to read data from the blockchain. Instead of querying a traditional database, my application communicated directly with a Solana RPC node to retrieve live account information.
+```
+day-08-read-solana/
+├── read-balance.mjs
+├── fetch-transactions.mjs
+└── README.md
+```
+
+---
+
+## Repository Update
+
+Documentation improved to explain how RPC is used to read account balances from the Solana blockchain.
