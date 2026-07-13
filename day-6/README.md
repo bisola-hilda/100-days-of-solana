@@ -1,12 +1,4 @@
-https://dev.to/bisola-hilda/from-passwords-to-private-keys-understanding-identity-on-solana-1d1k## DEV Community Article
-
-**Title**
-
-From Passwords to Private Keys: Understanding Identity on Solana
-
-**Article Link**
-
-https://dev.to/bisola-hilda/from-passwords-to-private-keys-understanding-identity-on-solana-abc123# Day 6 – Understanding Identity on Solana
+# Day 6 – Understanding Identity on Solana
 
 ## Challenge
 
@@ -14,62 +6,62 @@ Write and publish a DEV Community article explaining how identity works on Solan
 
 ---
 
+## Objective
+
+Understand how blockchain identity differs from traditional Web2 identity and explain it in a way that is easy for beginners to understand.
+
+---
+
+## What I Built
+
+I wrote and published my first technical article on DEV Community, explaining how Solana uses cryptographic keypairs as the foundation of identity instead of usernames and passwords.
+
+🔗 DEV Article:
+https://dev.to/bisola-hilda/from-passwords-to-private-keys-understanding-identity-on-solana-1d1k
+
+---
+
 ## What I Learned
 
-Today I learned that identity on Solana is fundamentally different from identity in traditional Web2 applications.
-
-Instead of usernames and passwords managed by companies, Solana uses cryptographic keypairs.
-
-A keypair consists of:
-
-- Public Key (Wallet Address)
-- Private Key (Proof of Ownership)
-
-The public key acts as my identity on the blockchain, while the private key allows me to securely sign transactions and prove ownership without revealing the key itself.
-
-I also learned that this cryptographic identity enables:
-
-- Token ownership
-- Program interactions
-- Governance participation
-- Reputation across decentralized applications
-
-Unlike Web2 accounts, blockchain identity is self-custodied, meaning I am responsible for protecting my private key and recovery phrase.
+- Identity on Solana begins with a cryptographic keypair.
+- The public key acts as a wallet address and blockchain identity.
+- The private key proves ownership and signs transactions.
+- Blockchain identity is self-custodied and works across decentralized applications.
 
 ---
 
-## Key Takeaways
+## Key Concepts
 
-- Identity on Solana starts with a cryptographic keypair.
-- Wallets manage keys but do not create identity.
-- Public keys can be shared safely.
-- Private keys should never be shared.
-- Self-custody comes with greater responsibility.
-
----
-
-## DEV Community Article
-
-**Title**
-
-> From Passwords to Private Keys: Understanding Identity on Solana
-
-**Article Link**
-
-👉 *(Add your DEV article URL here after publishing.)*
+- On-chain Identity
+- Public Key
+- Private Key
+- Self-Custody
+- Wallet Address
 
 ---
 
-## Skills Practiced
+## Lesson of the Day
 
-- Blockchain Fundamentals
-- Solana Accounts
-- Solana Keypairs
+Unlike Web2, where companies manage user identities, Solana allows users to own and control their identity through cryptographic keypairs.
+
+---
+
+## Real-World Application
+
+Every decentralized application on Solana relies on wallet-based identity for authentication, transaction signing, governance, token ownership, and access control.
+
+---
+
+## Skills Gained
+
 - Technical Writing
-- Developer Advocacy
+- Blockchain Fundamentals
+- Solana
+- DEV Community
+- Learning in Public
 
 ---
 
-## Reflection
+## Repository Update
 
-Writing this article helped reinforce my understanding of blockchain identity. Explaining the concepts in my own words made the differences between Web2 and Web3 much clearer and highlighted the importance of cryptographic ownership.
+Documentation improved to explain on-chain identity and link to the published DEV article.
