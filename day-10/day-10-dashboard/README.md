@@ -1,4 +1,7 @@
-# Day 10: Solana Devnet Dashboard
+## Screenshot
+
+![Day 10 Dashboard](screenshots/Devnet%20Dashboard.png)## Screenshot
+
 
 ## Overview
 
